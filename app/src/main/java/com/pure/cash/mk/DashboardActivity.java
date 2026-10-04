@@ -52,7 +52,6 @@ public class DashboardActivity extends Activity {
         historyBtn = findViewById(R.id.dashHistoryBtn);
         logoutBtn = findViewById(R.id.dashLogoutBtn);
 
-        // ইউজার ডেটা লোড
         userRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
