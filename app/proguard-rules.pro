@@ -1,0 +1,5 @@
+-keep class com.pure.cash.mk.** { *; }
+-keep class com.google.firebase.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn com.google.firebase.**

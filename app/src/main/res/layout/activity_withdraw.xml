@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⬆️ উইথড্র"
+        android:textSize="22sp"
+        android:textColor="#F59E0B"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/wdBalanceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="উপলব্ধ ব্যালেন্স: ৳ 0"
+        android:textColor="#22C55E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="14dp"
+        android:background="#1E293B"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="টাকার পরিমাণ (৳)"
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/wdAmountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="যেমন: 1000"
+        android:inputType="number"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পেমেন্ট পদ্ধতি"
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/wdMethodInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bKash / Nagad"
+        android:inputType="text"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মোবাইল নাম্বার"
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/wdNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="01XXXXXXXXX"
+        android:inputType="phone"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/wdSubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="উইথড্র রিকোয়েস্ট পাঠান"
+        android:textColor="#0F172A"
+        android:backgroundTint="#F59E0B"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="14dp" />
+
+    <Button
+        android:id="@+id/wdBackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ফিরে যান"
+        android:textColor="#E2E8F0"
+        android:backgroundTint="#334155"
+        android:textSize="14sp"
+        android:padding="12dp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Growth In BD"
+        android:textSize="32sp"
+        android:textColor="#38BDF8"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textSize="16sp"
+        android:textColor="#94A3B8"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#0F172A"
+        android:backgroundTint="#38BDF8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="14dp" />
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="নতুন অ্যাকাউন্ট তৈরি করুন"
+        android:textColor="#38BDF8"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:padding="8dp" />
+
+</LinearLayout>

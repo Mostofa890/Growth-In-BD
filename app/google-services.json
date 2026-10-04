@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "814008862473",
+    "firebase_url": "https://purecash-a5cc0-default-rtdb.firebaseio.com",
+    "project_id": "purecash-a5cc0",
+    "storage_bucket": "purecash-a5cc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814008862473:android:2a8fc80bc148bcb99b75d8",
+        "android_client_info": {
+          "package_name": "com.admin.mk.pure.cash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuutHwnNMxBv8QpzA7SG7xPMJAkNPSrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814008862473:android:2d818c544de87f469b75d8",
+        "android_client_info": {
+          "package_name": "com.pure.cash.mk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuutHwnNMxBv8QpzA7SG7xPMJAkNPSrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

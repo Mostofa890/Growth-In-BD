@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⬇️ ডিপোজিট"
+        android:textSize="22sp"
+        android:textColor="#22C55E"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="টাকা পাঠানোর পর নিচের তথ্য দিন। Admin যাচাই করে অনুমোদন করবেন।"
+        android:textColor="#94A3B8"
+        android:textSize="13sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="টাকার পরিমাণ (৳)"
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/depAmountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="যেমন: 5000"
+        android:inputType="number"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পেমেন্ট পদ্ধতি"
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/depMethodInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bKash / Nagad / Rocket"
+        android:inputType="text"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ট্রানজেকশন আইডি"
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/depTxnInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Transaction ID"
+        android:inputType="text"
+        android:textColorHint="#64748B"
+        android:textColor="#E2E8F0"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/depSubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ডিপোজিট রিকোয়েস্ট পাঠান"
+        android:textColor="#0F172A"
+        android:backgroundTint="#22C55E"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="14dp" />
+
+    <Button
+        android:id="@+id/depBackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ফিরে যান"
+        android:textColor="#E2E8F0"
+        android:backgroundTint="#334155"
+        android:textSize="14sp"
+        android:padding="12dp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
